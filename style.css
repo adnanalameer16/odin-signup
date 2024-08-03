@@ -76,3 +76,13 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+.invalid:invalid{
+    border: 2px solid red;
+    outline: none;
+}
+
+.valid:valid{
+    border: 2px solid green;
+    outline: none;
+}
