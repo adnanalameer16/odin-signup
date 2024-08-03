@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    height: 97vh;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar{
+    flex: 1;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.main{
+    flex: 2;
+    margin: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.form{
+    margin-top: 10%;
+}
+
+.form-contents{
+    display: flex;
+    margin-top: 5%;
+}
+
+.containerR, .containerL {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    flex: 1; 
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+
+}
+
+input:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+
+.button{
+    margin-top: 10%;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
