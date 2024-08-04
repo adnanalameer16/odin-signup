@@ -30,11 +30,25 @@
 
 .form{
     margin-top: 10%;
+
 }
 
-.form-contents{
+.createACCT{
     display: flex;
     margin-top: 5%;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 10px; 
+    display: none;
+}
+
+.login input{
+    width: 50%;
 }
 
 .containerR, .containerL {
@@ -85,4 +99,9 @@ a:hover{
 .valid:valid{
     border: 2px solid green;
     outline: none;
+}
+
+.button2{
+    margin-top: 10%;
+    display: none;
 }
